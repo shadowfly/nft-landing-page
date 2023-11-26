@@ -28,7 +28,7 @@ export function SmFaq() {
     return(<div id='four' className={styles.SmF}>
         <HeaderSe text={`Payout Schedule`}/>
         {/* Pdf button */}
-        <GreenPdf text={`View PDF`}/>
+        <GreenPdf text={`View DOC`}/>
 
 {/* Bg colors */}
         <div className={styles.SmallBG}>
@@ -49,17 +49,17 @@ export function BigfaRight() {
 // Left
 export function BigfaLeft() {
     return(<div className={styles.FaLeft}>
-        <FaqQues text={`Who is Node Trees? `} answer={`Node Trees is a passive income NFT project, you buy a NFT and every Week/Month we reward your account with the NFT a small amount of Eth.`}/>
+     
+        <FaqQues text={`What is the purpose of DeFi-WBRT?`} answer={`DeFi-WBRT aims to integrate BTC ecosystem assets, utilizing the BRC20 and ARC20 standards, to construct a decentralized finance (DeFi) protocol. The primary focus includes supporting cross-chain functionality and enabling applications such as AMM DEX and staking loans.`} />
 
-        <FaqQues text={`How does Node Trees make me passive income?`} answer={`  Node Trees takes the funds raised by the sale of NFTs and Creates/Stakes them in Validator Nodes to provide you a return above 15% a year.`}/>
+        <FaqQues text={`How does DeFi-WBRT ensure cross-chain compatibility?`} answer={`DeFi-WBRT achieves cross-chain compatibility by implementing a bridge mechanism. This mechanism facilitates the seamless transfer of assets between different blockchain networks, allowing users to participate in the DeFi-WBRT ecosystem regardless of the blockchain they are using.`} />
 
-        <FaqQues text={`What is a Validator Node?`} answer={`    A validator node is a Node on a Chain that Validates if a transaction is accurate. There are many Validator Nodes that are cross checked to come to a census on what transactions are accurate.`}/>
+        <FaqQues text={`What economic model governs DeFi-WBRT's native token?`} answer={`DeFi-WBRT's native token follows an economic model that includes reward mechanisms for active participation, governance rights for token holders, and staking rewards for those who lock their tokens within the protocol. This model aims to incentivize engagement and long-term support.`} />
 
-        <FaqQues text={`How does Node Trees provide a return above 15%?`} answer={`At node trees we only set up validators on Chains that have a reward rate above 15%. A good place to check the current award rates is stakingrewards.com. We typically will choose Chains with a proven track record of payouts.`}/>
+        <FaqQues text={`In what way does DeFi-WBRT support AMM DEX functionality?`} answer={`DeFi-WBRT supports AMM DEX (Automated Market Maker Decentralized Exchange) functionality by integrating AMM algorithms. This allows users to trade assets directly within the protocol without the need for intermediaries, enhancing liquidity and market efficiency.`} />
 
-        <FaqQues text={`Why buy a “Node Tree”?`} answer={`Although you could stake your crypto on your own, when we pool our funds to stake or set up a validator we have a bigger say in the validator and typically a larger reward yield.`}/>
+        <FaqQues text={`What is the roadmap for DeFi-WBRT's future development?`} answer={`DeFi-WBRT plans to expand its ecosystem by introducing multi-chain and multi-protocol support in future versions. The initial focus is on the BRC100 protocol, with subsequent versions incorporating advancements and user feedback to further enhance the protocol's capabilities.`} />
 
-        <FaqQues text={`How long does Node Trees plan on running their Validators?`} answer={`Node Trees plans on running validators for the next 5 years, at that point we would ask You the owners of our NFTs if we should keep running validators or close up shop.`}/>
     </div>)
 }
 
