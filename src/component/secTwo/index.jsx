@@ -35,9 +35,9 @@ export function ExtTwo() {
     return(<div id='two' className={styles.Extwo}>
         <div> 
         <Peppo text={`
-            We are building a defi project utilizing validator nodes on multiple chains. We plan on creating Validator nodes on chains with a yield of 15% or more. Some examples of Nodes with 15% yields are PanCakeSwap, Osmosis, and ChainX. We want to have our owners input as well. Once a month we will have a vote on what validators to keep and which ones we want to drop/add.`}/>
+            Built upon the BRC protocol, the WBRT protocol introduces cross-chain interoperability deployment, protocol inheritance, application nesting, state machine model, and decentralized governance. It brings computational capabilities to the Bitcoin blockchain, enabling permissionless and trustless automatic pricing, liquidity providers (LP), decentralization, and connectivity.`}/>
         </div>
-        <div className={styles.Butn}><GreenBtn text={`Email Us Now`}/></div>
+        <div className={styles.Butn}><GreenBtn text={`Join Now`}/></div>
 
     </div>)
 }
