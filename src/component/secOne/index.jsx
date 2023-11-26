@@ -36,9 +36,9 @@ export default SectionOne
 export function SecRightOne() {
    return(<div className={styles.RightOne}>
      <Peppo text={`Welcome!`}/>
-     <h1>node</h1>
-     <h3>trees nfts</h3>
-     <Peppo text={`We're Node Trees a NFT based Defi project. We believe that passive income shouldn't be difficult. It should be as easy as picking fruits from a tree. To learn more about this, check out the details of our tutorial. If you like what you see, consider donating. You can also follow us on Twitter and Facebook. Feel free to send us an email`}/>
+     <h1>WBRT</h1>
+     <h3>BTC-DEFI PROTOCOL</h3>
+       <Peppo text={` The implementation plan of the DeFi-WBRT protocol aims to introduce Bitcoin (BTC) ecological assets into the DeFi ecosystem, and build a DeFi protocol that supports cross-chains by expanding BRC20 assets and ARC20 assets.`}/>
     {/*  */}
     <Commen/>
    </div>)
@@ -62,7 +62,7 @@ export function BgGradiant(){
 // Common Components
 export function Commen() {
   return(<div className={styles.Common}>
-   <div className={styles.TwoButon}><GreenBtn text={`Buy Your NFT`}/>
+   <div className={styles.TwoButon}><GreenBtn text={`Explore`}/>
     <BlackBtn text={`Donate`}/></div>
     <Icons/>
   </div>)
